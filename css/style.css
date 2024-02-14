@@ -5,3 +5,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.cards {
+    background-color: rgb(168, 168, 168);
+    display: flex;
+    justify-content: center;
+}
