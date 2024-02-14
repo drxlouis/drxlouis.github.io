@@ -1,6 +1,6 @@
 const body = document.querySelector('body')
 
-const json = async () => {
+const getJson = async () => {
     const url = await fetch("index.json")
     const data = await url.json
     return data
@@ -13,4 +13,5 @@ getJson()
         <h3>${data.info}</h3>
         <p>${data.hobby}</p>
     `
-})
+});
+
