@@ -1,12 +1,12 @@
 const body = document.querySelector('body')
 
-const getJson = async () => {
+const Json = async () => {
     const url = await fetch("index.json")
     const data = await url.json
     return data
 }
 
-getJson()
+Json()
 .then((data) => {
     body.innerHTML = `
         <h1>${data.title}</h1>
