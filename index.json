@@ -1,7 +1,9 @@
 
 {
-    "title": "Louis Dierickx",
-    "info": "Hallo, ik ben Louis en ik woon te Merchtem",
-    "hobby": ["Javascript", "html", "css"] 
+    "title": "webshop",
+    "info": "Een webshop waar men dingen kan kopen",
+    "tchn": ["Javascript", "html", "css"],
+    "img": "https://assets.franke.com/is/image/frankemanagement/Webshop%20LandingPage_1720x1000px?qlt=85&ts=1664479007187&dpr=off"
 }
+
 

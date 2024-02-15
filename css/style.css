@@ -1,8 +1,31 @@
 body {
-    background-color: grey;
+    align-items: center;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(https://external-preview.redd.it/windows-xp-shrek-wallpaper-1920-1080-v0-fu6Zkyqi7aPskZT9S8oa7CqNTJTh46Niu8zsyH0Yrtc.jpg?auto=webp&s=f8dca6dbe6f5b6c46c8eb89960e050885b917fae);
 }
 
+.card {
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(185, 185, 185);
+    border-radius: 30px;
+    transition: transform 1s ease-in-out;
+    margin-top: 5rem;
+}
+
+.card img {
+    max-width: 25rem;
+}
+
+.card h1 {
+    font-size: 5rem;
+    color: yellow;
+}
+
+.card:hover {
+    transform: rotate(360deg) scale(4.5);
+}
