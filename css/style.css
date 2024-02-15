@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://external-preview.redd.it/windows-xp-shrek-wallpaper-1920-1080-v0-fu6Zkyqi7aPskZT9S8oa7CqNTJTh46Niu8zsyH0Yrtc.jpg?auto=webp&s=f8dca6dbe6f5b6c46c8eb89960e050885b917fae);
+    background-color: rgb(240, 211, 211);
 }
 
 .card {
